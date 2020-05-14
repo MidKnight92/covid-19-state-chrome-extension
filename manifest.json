@@ -1,0 +1,15 @@
+{
+    "name": "COVID-19-Coronavirus-State",
+    "version": "0.1",
+    "description": "A Covid Tracking Data Button",
+    "permissions": ["<all_urls>","https://ajax.googleapis.com/", "https://covidtracking.com/api/states/*","http://ip-api.com/json/?fields=region"],
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "./images/icons8-coronavirus-64.png",
+        "default_title": "Current Local Covid-19 statistics",
+        "default_popup": "popup.html"
+    } 
+}
+
+
+
