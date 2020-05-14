@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        html, body {
+            font-family: 'DM Mono', monospace;
+            font-size: 14px;
+            margin: 0 10px;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+            background-color:lightblue;
+        }
+
+        h1 {
+            font-family: 'DM Mono', monospace;
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 0;
+        }
+    </style>
+
     <title>Covid-19 Tracker</title>
 </head>
-<body class="body-popup19">
-    <div id="popup19" style="white-space:nowrap;">
-        <p>Retrieving ... </p>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">Covid-19</h1>
     </div>
+    <div class="modal-content"></div>
+        <p>Retrieving ... </p>
     <script src="popup.js"></script>
 </body>
 </html>
